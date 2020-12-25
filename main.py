@@ -1,5 +1,8 @@
+from clustering import Clustering
 from find_templates import Finder
 
-a = Finder('templates.xlsx')
+a = Clustering('templates.xlsx')
 
-a.run()
+a.read_data()
+
+a.clustering()
